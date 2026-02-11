@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Analyzer | Vaihit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 CSV Analyzer</h1>
+
+    <textarea id="csvInput" placeholder="Paste CSV data here"></textarea>
+    <button onclick="analyze()">Analyze</button>
+
+    <div class="result">
+      <p>Total Rows: <span id="total"></span></p>
+      <p>Average Marks: <span id="avg"></span></p>
+      <p>Highest Marks: <span id="max"></span></p>
+      <p>Lowest Marks: <span id="min"></span></p>
+    </div>
+
+    <footer>Built under <strong>Vaihit</strong></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
